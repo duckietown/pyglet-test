@@ -1,5 +1,6 @@
 # FROM nvidia/cuda:10.0-base
 # FROM nvidia/cudagl:10.2-runtime-ubuntu18.04
+# FROM nvidia/opengl:1.2-glvnd-devel
 FROM nvidia/opengl:1.2-glvnd-devel
 WORKDIR /project
 RUN vdir -a /tmp
